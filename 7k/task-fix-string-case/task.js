@@ -11,3 +11,6 @@ function solve(s){
     // console.log(s.replaceAt(3,s[i].toUpperCase()))
     return arr.join("");
 }
+
+//решение через регулярное выражение
+//const solve = s => s.replace(/[A-Z]/g,'').length < s.length/2 ? s.toUpperCase() : s.toLowerCase()
