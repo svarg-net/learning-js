@@ -5,3 +5,8 @@ function doubleChar(str) {
     console.log(str.split('').map(a=>tempStr+=a+a))
     return tempStr
 }
+// const doubleChar = (str) => str.split("").map(c => c + c).join("");
+//
+// function doubleChar(str) {
+//     return str.replace(/(.)/g, "$1$1")
+// }
